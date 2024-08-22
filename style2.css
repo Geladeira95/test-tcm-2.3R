@@ -1,0 +1,84 @@
+body{
+    background-image: url(hollow_knight.png);
+    height: 2200px;
+    width: 1295px;
+}
+
+.div_header {
+    display: flex;
+    width: 40%;
+    height: 100px;
+    align-items: baseline;
+    padding-left: 3%;
+
+}
+
+.div_header2 {
+    width: 60%;
+}
+
+.menu {
+    font-size: 25px;
+    background-color: rgba(0, 0, 0, 0.0);
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    font-family: "Quicksand", sans-serif;
+    font-style: normal;
+    margin-right: 3%;
+}
+
+.div_menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border-radius: 10px;
+    z-index: 1;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+
+.div_menu a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.4s;
+    background-color: #111;
+    border-radius: 10px;
+}
+
+.div_menu a:hover {
+    color: #f1f1f1;
+    background-color: #353535;
+    border-radius: 10px;
+}
+
+.div_menu .close-btn  {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+
+}
+
+
+.main-content {
+    padding: 16px;
+    transition: margin-left 0.5s;
+}
+
+p,
+h2 {
+    font-family: "Quicksand", sans-serif;
+    color: aliceblue;
+}
+

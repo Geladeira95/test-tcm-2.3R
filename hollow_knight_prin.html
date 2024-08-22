@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="hollow_knight_icon.png" />
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
+    <title>hollow kingt</title>
+</head>
+<body>
+
+    <header>
+        <div class="div_header">
+            <button class="menu" onclick="toggleSidebar()">☰</button>
+            <h2>Jogos Indies </h2>
+        </div>
+    </header>
+
+    <nav>
+        <div id="div_menu" class="div_menu">
+            <a href="javascript:void(0)" class="close-btn" onclick="toggleSidebar()">×</a>
+            <a href="index.html">Pagina inicial
+                <a href="hollow_knight_prin.html">Hollow knight</a>
+                <a href="#">Cuphead</a>
+                <a href="#">Undertale</a>
+                <a href="#">Celeste</a>
+                <a href="#">Dead Cells</a>
+                <a href="#">Hades</a>
+                <a href="index_ingles.html">Idioma: Português</a>
+                
+        </div>
+    </nav>
+
+    <main>
+        <div class="logo"><img src="hollow_knight_logo.png" alt=""></div>
+    </main>
+
+
+
+    <script>function toggleSidebar() {
+        var sidebar = document.getElementById("div_menu");
+        if (sidebar.style.width === "250px") {
+            sidebar.style.width = "0";
+        } else {
+            sidebar.style.width = "250px";
+        }
+    }</script>
+</body>
+</html>
